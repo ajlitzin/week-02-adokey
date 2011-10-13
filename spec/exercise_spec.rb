@@ -8,7 +8,7 @@ describe "Strings" do
 	context "when reversed using the reverse method" do
 		it "should not be permanent" do
 			example = "this is a test string"
-			example.reverse!.should_not eq example
+			example.reverse.should_not eq example
 		end
 		it "unless you want it to be" do
 			example = "this is a test string"
